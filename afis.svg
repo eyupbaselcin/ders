@@ -1,0 +1,31 @@
+<svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#bg)"/>
+
+  <rect x="40" y="40" width="520" height="720" fill="none" stroke="#facc15" stroke-width="3"/>
+
+  <text x="300" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#facc15" letter-spacing="4">SDÜ KAMPÜS ETKİNLİK</text>
+
+  <circle cx="300" cy="300" r="90" fill="#1d4ed8" stroke="#facc15" stroke-width="4"/>
+  <g transform="translate(255,255)">
+    <rect x="0" y="30" width="90" height="55" rx="6" fill="#facc15"/>
+    <rect x="30" y="10" width="30" height="20" rx="4" fill="none" stroke="#facc15" stroke-width="5"/>
+    <rect x="0" y="52" width="90" height="10" fill="#1e3a8a"/>
+  </g>
+
+  <text x="300" y="460" text-anchor="middle" font-family="Georgia, serif" font-size="46" font-weight="bold" fill="#ffffff">Kariyer</text>
+  <text x="300" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="46" font-weight="bold" fill="#ffffff">Günleri 2026</text>
+
+  <line x1="180" y1="560" x2="420" y2="560" stroke="#facc15" stroke-width="2"/>
+
+  <text x="300" y="610" text-anchor="middle" font-family="Verdana, sans-serif" font-size="22" fill="#e2e8f0">12 Ekim 2026 · 14:00</text>
+  <text x="300" y="645" text-anchor="middle" font-family="Verdana, sans-serif" font-size="22" fill="#e2e8f0">A Blok Konferans Salonu</text>
+
+  <text x="300" y="720" text-anchor="middle" font-family="Verdana, sans-serif" font-size="16" fill="#94a3b8">Kontenjan: 120 kişi</text>
+</svg>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kampüs Etkinlikleri</title>
+  <link rel="stylesheet" href="2416501043.css">
+</head>
+<body>
+  <header>
+    <h1>Kampüs Etkinlikleri</h1>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="etkinlikler.html">Etkinlikler</a>
+      <a href="etkinlik-ekle.html">Ekle</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Tüm Etkinlikler</h2>
+
+    <form id="filtre-formu" class="filtre-formu" role="search">
+      <div class="form-alani">
+        <label for="arama">Etkinlik ara</label>
+        <input type="search" id="arama" name="arama" placeholder="Etkinlik adı, yer veya açıklama">
+      </div>
+
+      <div class="form-alani">
+        <label for="kategori-filtre">Kategori</label>
+        <select id="kategori-filtre" name="kategori">
+          <option value="">Tüm kategoriler</option>
+        </select>
+      </div>
+
+      <button type="submit">Filtrele</button>
+    </form>
+
+    <p id="sonuc" role="status" aria-live="polite"></p>
+    <section id="etkinlik-listesi" class="etkinlik-listesi" aria-label="Etkinlikler"></section>
+  </main>
+
+  <footer>
+    <p>Eyüp Başelçin 2416501043</p>
+  </footer>
+  <script type="module" src="event-list.js"></script>
+</body>
+</html>

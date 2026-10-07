@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kampüs Etkinlikleri</title>
+  <link rel="stylesheet" href="2416501043.css">
+</head>
+<body class="ana-sayfa">
+  <header>
+    <h1>Kampüs Etkinlikleri</h1>
+    <nav>
+      <a href="index.html" aria-current="page">Ana Sayfa</a>
+      <a href="etkinlikler.html">Etkinlikler</a>
+      <a href="etkinlik-ekle.html">Ekle</a>
+      <a href="etkinlik-guncelle.html">Güncelle</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Tüm Etkinlikler</h2>
+    <section id="etkinlik-listesi" class="etkinlik-listesi" data-limit="2" data-compact="true" aria-label="Yaklaşan etkinlikler"></section>
+
+    <table>
+      <caption>Ayın Programı</caption>
+      <colgroup>
+        <col class="program-tarih">
+        <col class="program-etkinlik">
+        <col class="program-yer">
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col">Tarih</th>
+          <th scope="col">Etkinlik</th>
+          <th scope="col">Yer</th>
+        </tr>
+      </thead>
+      <tbody id="ayin-programi"></tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>Eyüp Başelçin 2416501043</p>
+  </footer>
+  <script type="module" src="event-list.js"></script>
+</body>
+</html>
